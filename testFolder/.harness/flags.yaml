@@ -34,5 +34,26 @@ featureFlags:
         - targets:
           - identifier: st50
           variation: "true"
+  - flag:
+      name: Test_hello
+      identifier: Test_hello
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: testst
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: lauragitsync
   orgIdentifier: default
