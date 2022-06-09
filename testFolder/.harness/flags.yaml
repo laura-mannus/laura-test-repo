@@ -1,0 +1,29 @@
+featureFlags:
+  flags:
+  - flag:
+      name: test11
+      identifier: test11
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: testst
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+        targetRules:
+        - targets:
+          - identifier: st50
+          variation: "true"
+  projectIdentifier: lauragitsync
+  orgIdentifier: default
