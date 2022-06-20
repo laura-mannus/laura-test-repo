@@ -55,5 +55,9 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: st50
+          variation: "false"
   projectIdentifier: lauragitsync
   orgIdentifier: default
