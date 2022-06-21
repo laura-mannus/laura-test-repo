@@ -55,6 +55,15 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "false"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - Test123
         targetRules:
         - targets:
           - identifier: st50
