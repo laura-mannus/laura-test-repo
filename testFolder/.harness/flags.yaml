@@ -67,6 +67,6 @@ featureFlags:
         targetRules:
         - targets:
           - identifier: st50
-          variation: "false"
+          variation: "true"
   projectIdentifier: lauragitsync
   orgIdentifier: default
