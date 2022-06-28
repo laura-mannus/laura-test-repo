@@ -30,10 +30,6 @@ featureFlags:
             op: segmentMatch
             values:
             - Test123
-        targetRules:
-        - targets:
-          - identifier: st50
-          variation: "true"
   - flag:
       name: Test_hello
       identifier: Test_hello
