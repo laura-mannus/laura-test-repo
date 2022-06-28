@@ -58,7 +58,7 @@ featureFlags:
         rules:
         - priority: 0
           serve:
-            serveVariation: "false"
+            serveVariation: "true"
           clauses:
           - attribute: ""
             op: segmentMatch
