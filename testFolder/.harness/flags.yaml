@@ -33,7 +33,7 @@ featureFlags:
         targetRules:
         - targets:
           - identifier: st50
-          variation: "false"
+          variation: "true"
   - flag:
       name: Test_hello
       identifier: Test_hello
