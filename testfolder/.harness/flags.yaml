@@ -28,21 +28,36 @@ featureFlags:
             curl http://localhost:3000/api/1.0/version {"adminServiceEnabled":"true","clientServiceEnabled":"true","gitCommit":"","metricServiceEnabled":"true","versionInfo":"1.0.0"}
             Next Steps'
         - identifier: Long2
-          value: Harness - Feature Flags Harness feature flags is a service that allows
-            users to create and manage feature flags. The service provides RESTful
-            and stream based APIs that allow clients to evaluate the value of feature
-            flags  Getting Started These instructions will get you a copy of the project
-            up and running on your local machine for development and testing purposes.
-            See deployment for notes on how to deploy the project on a live system.  Prerequisites
-            To build and run the project locally you need to have  golang >=1.17 docker
-            make zmq Clone and Initialise the repo git submodule init git submodule
-            update Build The all target will install build dependencies, generate
-            code and build the golang binary  make all Running the Feature Flag service
-            This is useful if you want to try out feature flagging without making
-            changes to code.  make start Test if feature flags is running Call the
-            version API and confirm you get a valid response  curl http://localhost:3000/api/1.0/version
-            {"adminServiceEnabled":"true","clientServiceEnabled":"true","gitCommit":"","metricServiceEnabled":"true","versionInfo":"1.0.0"}
-            Next Steps
+          value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at iaculis
+            nisl. Pellentesque gravida faucibus sapien, in aliquet quam convallis
+            ac. Suspendisse laoreet dolor quis sem cursus consectetur eu nec dolor.
+            Ut eget fermentum mi. In lectus purus, ultrices ut laoreet eget, condimentum
+            non sem. Integer sem ex, varius nec massa nec, sodales porttitor erat.
+            Ut condimentum tristique leo, at varius eros bibendum nec. Praesent sed
+            neque ipsum. Quisque vitae malesuada enim. Integer finibus est quis tristique
+            semper. Sed non aliquet tortor.  Nunc ac arcu rhoncus, imperdiet mauris
+            id, porta magna. Donec vestibulum tempor enim eget dictum. Sed a mattis
+            nisi, sit amet dictum velit. Sed nec mollis dui. Duis sed justo porta
+            nulla pellentesque pharetra. Nunc cursus magna ut ipsum accumsan vulputate.
+            Ut quis felis nulla. In tincidunt, leo ac semper sollicitudin, nulla enim
+            posuere odio, vitae viverra dui nibh non dolor. Maecenas urna dui, posuere
+            nec nisl eget, eleifend vulputate est.  Fusce laoreet leo quis augue posuere
+            porta. Ut ultrices porta magna vitae lobortis. Quisque in finibus leo.
+            Integer condimentum id sem quis fringilla. Nullam eleifend turpis eget
+            metus placerat fermentum ut eu eros. Aenean eget urna nibh. Curabitur
+            vel pretium ipsum. Ut rutrum egestas erat et mollis. Curabitur dolor ligula,
+            facilisis in nibh sit amet, consequat congue enim. Pellentesque tempus
+            iaculis ante non mollis. Pellentesque blandit, velit eget vulputate facilisis,
+            nibh ligula gravida urna, vel condimentum tellus justo id dui. Ut pharetra
+            vitae augue a malesuada. Cras hendrerit ligula diam, id condimentum urna
+            congue et. Proin augue quam, rhoncus a pretium eget, iaculis eu leo.  Mauris
+            facilisis enim eu massa ultrices fermentum consectetur a quam. Vestibulum
+            malesuada sapien at magna bibendum sollicitudin. Duis aliquam neque in
+            arcu consequat, eget mattis diam ultrices. Morbi ullamcorper quam in ipsum
+            faucibus, nec fringilla quam volutpat. Nulla facilisi. Nam eu dignissim
+            ipsum. Praesent dignissim congue aliquet. Proin nec lorem ac ligula consequat
+            convallis vel rutrum metus. Pellentesque lobortis enim enim, in dapibus
+            nunc tempor eu.
       environments:
       - identifier: LauraTest1
         default:
