@@ -1,6 +1,27 @@
 featureFlags:
   flags:
   - flag:
+      name: Feature Flag 1
+      identifier: Feature_Flag_1
+      description: ""
+      permanent: false
+      spec:
+        type: string
+        default:
+          onVariation: Hello
+          offVariation: Goodbye
+        variations:
+        - identifier: Hello
+          value: This is hello.
+        - identifier: Goodbye
+          value: This is goodbye.
+      environments:
+      - identifier: LauraTest1
+        default:
+          onVariation: Hello
+          offVariation: Goodbye
+        state: "off"
+  - flag:
       name: Hello123
       identifier: Hello123
       description: ""
