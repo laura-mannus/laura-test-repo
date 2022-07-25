@@ -1,6 +1,29 @@
 featureFlags:
   flags:
   - flag:
+      name: Multi1
+      identifier: Multi1
+      description: ""
+      permanent: false
+      spec:
+        type: string
+        default:
+          onVariation: hello1
+          offVariation: hello2
+        variations:
+        - identifier: hello1
+          value: "1"
+        - identifier: hello2
+          value: "2"
+        - identifier: hello3
+          value: "3"
+      environments:
+      - identifier: testst
+        default:
+          onVariation: hello1
+          offVariation: hello2
+        state: "off"
+  - flag:
       name: test11
       identifier: test11
       description: ""
