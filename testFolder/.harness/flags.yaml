@@ -16,6 +16,11 @@ featureFlags:
         - identifier: hello2
           value: "2"
       environments:
+      - identifier: hello123
+        default:
+          onVariation: hello1
+          offVariation: hello2
+        state: "off"
       - identifier: testst
         default:
           onVariation: hello1
@@ -37,6 +42,11 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
+      - identifier: hello123
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
       - identifier: testst
         default:
           onVariation: "true"
@@ -62,6 +72,11 @@ featureFlags:
         - identifier: "false"
           value: "false"
       environments:
+      - identifier: hello123
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
       - identifier: testst
         default:
           onVariation: "true"
