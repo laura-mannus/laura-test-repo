@@ -15,8 +15,6 @@ featureFlags:
           value: "1"
         - identifier: hello2
           value: "2"
-        - identifier: hello3
-          value: "3"
       environments:
       - identifier: testst
         default:
