@@ -1,7 +1,7 @@
 featureFlags:
   flags:
   - flag:
-      name: Multi1
+      name: HelloFlag
       identifier: Multi1
       description: ""
       permanent: false
