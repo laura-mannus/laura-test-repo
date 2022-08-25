@@ -261,6 +261,32 @@ featureFlags:
           offVariation: "false"
         state: "off"
   - flag:
+      name: flag8ksfihhskaf
+      identifier: flag8ksfihhskaf
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env123456
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: flag94y
       identifier: flag94y
       description: ""
