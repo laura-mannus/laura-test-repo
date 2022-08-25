@@ -157,6 +157,32 @@ featureFlags:
           offVariation: "false"
         state: "off"
   - flag:
+      name: flag73fdkisfh
+      identifier: flag73fdkisfh
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env123456
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: flag7hfu8
       identifier: flag7hfu8
       description: ""
