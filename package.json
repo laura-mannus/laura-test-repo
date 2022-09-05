@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@harnessio/ff-javascript-client-sdk": "^1.4.11"
+  }
+}
