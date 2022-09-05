@@ -1,0 +1,93 @@
+featureFlags:
+  flags:
+  - flag:
+      name: flag1
+      identifier: flag1
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "false"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - TargetGroup1
+        targetRules:
+        - targets:
+          - identifier: target1
+          variation: "true"
+  - flag:
+      name: flag2
+      identifier: flag2
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "false"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - TargetGroup1
+        targetRules:
+        - targets:
+          - identifier: target2
+          variation: "false"
+  - flag:
+      name: flag4
+      identifier: flag4
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  projectIdentifier: LauraTest1
+  orgIdentifier: default
