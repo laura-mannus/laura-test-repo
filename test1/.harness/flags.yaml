@@ -21,6 +21,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag00124
       identifier: flag00124
@@ -42,6 +47,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag00125
       identifier: flag00125
@@ -59,6 +69,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -84,6 +99,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag004
       identifier: flag004
@@ -101,6 +121,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -126,6 +151,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag006
       identifier: flag006
@@ -143,6 +173,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -168,6 +203,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag008
       identifier: flag008
@@ -185,6 +225,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -210,6 +255,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag010
       identifier: flag010
@@ -227,6 +277,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -252,6 +307,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag012
       identifier: flag012
@@ -269,6 +329,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -294,6 +359,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag014
       identifier: flag014
@@ -311,6 +381,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -336,6 +411,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag016
       identifier: flag016
@@ -353,6 +433,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -378,6 +463,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag018
       identifier: flag018
@@ -395,6 +485,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -420,6 +515,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag020
       identifier: flag020
@@ -437,6 +537,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -462,6 +567,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag022
       identifier: flag022
@@ -479,6 +589,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -504,6 +619,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag024
       identifier: flag024
@@ -521,6 +641,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -546,6 +671,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag026
       identifier: flag026
@@ -563,6 +693,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -588,6 +723,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag028
       identifier: flag028
@@ -605,6 +745,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -630,6 +775,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag030
       identifier: flag030
@@ -651,6 +801,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag032
       identifier: flag032
@@ -672,6 +827,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag1
       identifier: flag1
@@ -714,6 +874,11 @@ featureFlags:
         - targets:
           - identifier: target1
           variation: "true"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag2
       identifier: flag2
@@ -748,6 +913,11 @@ featureFlags:
         - targets:
           - identifier: target2
           variation: "false"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag4
       identifier: flag4
@@ -769,6 +939,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: test001
       identifier: test001
@@ -786,6 +961,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
@@ -811,6 +991,11 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: test111
       identifier: test111
@@ -828,6 +1013,11 @@ featureFlags:
           value: "false"
       environments:
       - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
         default:
           onVariation: "true"
           offVariation: "false"
