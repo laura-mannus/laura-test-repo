@@ -27,6 +27,32 @@ featureFlags:
           offVariation: "false"
         state: "on"
   - flag:
+      name: fklahdf7fdsh
+      identifier: fklahdf7fdsh
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: flag00123
       identifier: flag00123
       description: ""
