@@ -2113,7 +2113,7 @@ featureFlags:
         default:
           onVariation: "true"
           offVariation: "false"
-        state: "on"
+        state: "off"
   - flag:
       name: uhfisuhfocsh
       identifier: uhfisuhfocsh
