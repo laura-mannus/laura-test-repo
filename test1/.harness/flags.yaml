@@ -1647,6 +1647,32 @@ featureFlags:
           offVariation: "false"
         state: "on"
   - flag:
+      name: lahf8dshf
+      identifier: lahf8dshf
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: test001
       identifier: test001
       description: ""
