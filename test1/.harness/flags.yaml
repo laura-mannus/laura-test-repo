@@ -157,6 +157,32 @@ featureFlags:
           offVariation: "false"
         state: "off"
   - flag:
+      name: flag003946dgf
+      identifier: flag003946dgf
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: flag004
       identifier: flag004
       description: ""
