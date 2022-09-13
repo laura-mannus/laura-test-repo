@@ -2061,7 +2061,7 @@ featureFlags:
         default:
           onVariation: "true"
           offVariation: "false"
-        state: "off"
+        state: "on"
   - flag:
       name: wcjbwcq
       identifier: wcjbwcq
