@@ -1491,6 +1491,32 @@ featureFlags:
           offVariation: "false"
         state: "on"
   - flag:
+      name: flags7f9gfjdmn
+      identifier: flags7f9gfjdmn
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: flaGS8F9SBFDJDLF
       identifier: flags8f9sbfdjdlf
       description: ""
