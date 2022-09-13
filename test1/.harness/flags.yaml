@@ -1231,6 +1231,32 @@ featureFlags:
           offVariation: "false"
         state: "off"
   - flag:
+      name: flags7d7f8hd
+      identifier: flags7d7f8hd
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: flajdhdf8shd
       identifier: flajdhdf8shd
       description: ""
