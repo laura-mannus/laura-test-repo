@@ -1,7 +1,7 @@
 featureFlags:
   flags:
   - flag:
-      name: l
+      name: laura
       identifier: asqwk
       description: ""
       permanent: false
