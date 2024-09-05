@@ -1,7 +1,7 @@
 featureFlags:
   flags:
   - flag:
-      name: HELLO
+      name: Goodbye
       identifier: asqwk
       description: ""
       permanent: false
